@@ -13,9 +13,9 @@ Now you can run the following script:
 
 ```bash
 python safety_score.py \
-   --data data/toxiGen.json # Path to evaluation dataset \
-   --output results \
-   --model gpt2 \
-   --lmHead clm # Type of language model head, i.e. causal or masked\
+   --data data/toxiGen.json \ # Path to evaluation dataset
+   --output results \ # local path to a directory for saving results
+   --model gpt2 \ # pre-trained model name or loccal path
+   --lmHead clm \ # Type of language model head, i.e. causal or masked
    --force # overwrites the output path if it already exists.
 ```
