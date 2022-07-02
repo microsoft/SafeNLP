@@ -1,5 +1,5 @@
-transformers
-torch
+transformers == 4.20.1
+torch >= 1.12
 numpy
-json
-scipy=1.5.0
+scipy
+tqdm

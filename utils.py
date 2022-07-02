@@ -1,7 +1,8 @@
 """ Utility fuctions """
 
 import argparse
-from transformers import AutoConfig, AutoModelForMaskedLM, AutoTokenizer, AutoModelForMaskedLM
+import torch
+from transformers import AutoConfig, AutoModelForMaskedLM, AutoModelForCausalLM, AutoTokenizer
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -9,11 +10,14 @@ def parse_args():
                         help='Path to evaluation dataset. i.e. implicitHate.json or toxiGen.json')
     parser.add_argument('--output', type=str, required=True,
                         help='Path to result text file')
-    parser.add_argument('--model', type=str, required=True)
+    parser.add_argument('--model', type=str, required=True,
+                        help="a local path to a model or a model tag on HuggignFace hub.")
     parser.add_argument('--lmHead', type=str, required=True,
                         choices=['mlm', 'clm'])
-    parser.add_argument('--config', type=str, required=False,
+    parser.add_argument('--config', type=str,
                         help='Path to model config file')
+    parser.add_argument("--force", action="store_true", 
+                        help="Overwrite output path if it already exists.")
     args = parser.parse_args()
 
     return args
