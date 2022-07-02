@@ -1,0 +1,5 @@
+transformers
+torch
+numpy
+json
+scipy=1.5.0
