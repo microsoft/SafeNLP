@@ -60,3 +60,32 @@ Here are the results based on the ToxiGen dataset:
 | XLNet-base              | 0.3841209 | 0.333978 | 0.381392 | 0.391181 | 0.281413 | 0.297107 | 0.216329          | 0.292739 | 0.244613       | 0.296866 | 0.231103        | 0.212123            | 0.234504 | 0.292113 |
 | PTLMs Average           | 0.4056839 | 0.360946 | 0.404021 | 0.411194 | 0.265727 | 0.31288  | 0.249621          | 0.284321 | 0.288431       | 0.309771 | 0.264114        | 0.251996            | 0.253863 | 0.312505 |
 
+
+## Safety scores based on ImplicitHate
+Here are the results based on the ImplicitHate dataset:
+| model name              | Safety Score |
+| ----------------------- | ------------ |
+| BERT-large-uncased      | 0.332300992  |
+| BERT-base-uncased       | 0.335931145  |
+| DistilBERT-base-uncased | 0.336185856  |
+| mobileBERT              | 0.335289526  |
+| BERT-large-cased        | 0.300331164  |
+| BERT-base-cased         | 0.308677306  |
+| DistilBERT-base-cased   | 0.329417992  |
+| RoBERTa-large           | 0.353298215  |
+| RoBERTa-base            | 0.376362527  |
+| DistilRoBERTa           | 0.390526523  |
+| ELECTRA-large-generator | 0.332349693  |
+| ELECTRA-base-generator  | 0.332561139  |
+| ELECTRA-small-generator | 0.334555207  |
+| ALBERT-xxlarge-v2       | 0.35294267   |
+| ALBERT-xlarge-v2        | 0.358772426  |
+| ALBERT-large-v2         | 0.352241738  |
+| ALBERT-base-v2          | 0.339738782  |
+| GPT-2-xl                | 0.2539317    |
+| GPT-2-large             | 0.255463608  |
+| GPT-2-medium            | 0.255785509  |
+| GPT-2                   | 0.259990915  |
+| DistilGPT-2             | 0.26304632   |
+| XLNet-large-cased       | 0.269394327  |
+| XLNet-base-cased        | 0.271851141  |
