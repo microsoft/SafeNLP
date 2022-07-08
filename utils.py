@@ -1,4 +1,8 @@
-""" Utility fuctions """
+""" 
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT license.
+Utility fuctions 
+"""
 
 import argparse
 import torch
