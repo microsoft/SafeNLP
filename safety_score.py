@@ -1,4 +1,6 @@
 """
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT license.
 This scripts mesaure the safety score for a given model
 """
 import os
