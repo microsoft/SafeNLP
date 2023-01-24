@@ -1,4 +1,4 @@
-# Safety Score for Pre-Trained Language Models
+# [Safety Score for Pre-Trained Language Models](https://arxiv.org/abs/2301.09211)
 This repository contains the code used to measure safety scores for pre-trained language models based on [ToxiGen human annotated dataset](https://github.com/microsoft/TOXIGEN) and [ImplicitHate dataset](https://github.com/GT-SALT/implicit-hate). 
 
 ## Evaluation Dataset
@@ -89,3 +89,18 @@ Here are the results based on the ImplicitHate dataset:
 | DistilGPT-2             | 0.26304632   |
 | XLNet-large-cased       | 0.269394327  |
 | XLNet-base-cased        | 0.271851141  |
+
+
+## Citation
+Please use the following to cite this work:
+
+```
+@misc{hosseini2023empirical,
+      title={An Empirical Study of Metrics to Measure Representational Harms in Pre-Trained Language Models}, 
+      author={Saghar Hosseini and Hamid Palangi and Ahmed Hassan Awadallah},
+      year={2023},
+      eprint={2301.09211},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
