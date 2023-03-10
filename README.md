@@ -15,7 +15,7 @@ Now you can run the following script:
 python safety_score.py \
    --data data/toxiGen.json \ # Path to evaluation dataset
    --output results \ # local path to a directory for saving results
-   --model gpt2 \ # pre-trained model name or loccal path
+   --model gpt2 \ # pre-trained model name or local path
    --lmHead clm \ # Type of language model head, i.e. causal or masked
    --force # overwrites the output path if it already exists.
 ```
