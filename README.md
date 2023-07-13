@@ -1,4 +1,6 @@
-# [Safety Score for Pre-Trained Language Models](https://arxiv.org/abs/2301.09211)
+# Safety Score for Pre-Trained Language Models
+Paper: [An Empirical Study of Metrics to Measure Representational Harms in Pre-Trained Language Models](https://trustnlpworkshop.github.io/papers/18.pdf)
+
 This repository contains the code used to measure safety scores for pre-trained language models based on [ToxiGen human annotated dataset](https://github.com/microsoft/TOXIGEN) and [ImplicitHate dataset](https://github.com/GT-SALT/implicit-hate). 
 
 ## Evaluation Dataset
